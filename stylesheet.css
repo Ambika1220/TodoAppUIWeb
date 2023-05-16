@@ -1,0 +1,150 @@
+
+/* *{
+    margin-bottom: 30%;
+} */
+
+.navbar{
+    height: 50px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.navbar{
+    font-weight: bolder;
+    padding: 15px 80px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 15px rgba(78, 77, 77, 0.366);
+}
+
+.lists{
+    color: #00a2ff;
+  
+}
+
+/* .mainContainer { 
+    padding: 25px 80px;
+    font-size: 20px;
+} */
+
+
+.tasks{
+    /* text-align: right;
+    color: var(--black); */
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: 1100px;
+    background-color: rgb(7, 140, 249);
+    border-radius: 50%; 
+}
+
+.plus{
+    
+    padding: 10px 5px;
+    /* color: var(--white); */
+    /* background: var(--blue); */
+    color: white;
+    margin: 0px 0px 0px 0px ;
+}
+
+.newtask{
+        color: black;
+        padding-left: 5px;
+        margin-left: 1125px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 180px;
+    gap: 20px;
+
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    /* border: 5px solid black; */
+}
+
+input[type=checkbox]{
+    width: 10px;
+    height: 10px;
+}
+#text{
+    text-decoration: line-through;
+    color: gray;
+}
+
+h2{
+    color: rgb(0, 119, 255);
+    text-align: center;
+}
+
+/* index2.html */
+
+.button{
+    background-color: rgb(0, 157, 255);
+    padding-left: 10px;
+    margin-left: 150px;
+}
+
+#close
+{
+    margin: -10px 30px;
+    padding-left: 30px;  
+}
+
+.maincontainer1{
+    background-image: url("./index.html");
+    filter: blur(2px);
+    height: 100%;
+}
+
+.new1{
+    /* margin: -50px 50px 50px 500px; */
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* index3.html */
+
+.newtask1{
+ margin-left: 700px;
+}
+
+.tasks1{
+    
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: 700px;
+    background-color: rgb(7, 140, 249);
+    border-radius: 50%; 
+}
+
+.container1{
+    margin-left: 500px;
+}
+
+.arrow{
+    margin-left: 500px;
+    padding: 10px;
+}
+
+/* index4.html */
+
+.maincontainer2{
+    background-image: url("./index3.html");
+    filter: blur(2px);
+    height: 100%;
+}
+
