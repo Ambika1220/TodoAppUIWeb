@@ -20,8 +20,16 @@
     color: #00a2ff;
 }
 
+.circleplus{
+    float: right;
+    margin-right: 30px;
+}
 
-
+.plus1{
+    margin: auto;
+    position: absolute;
+    left: 160px;
+}
 
 .tasks{   
     border-radius: 50%;
@@ -41,8 +49,9 @@
 .newtask{
         color: black;
         padding-left: 5px;
-        margin-left: 500px;
-        }
+        margin-left: 1000px;
+        /* margin-top: -20px; */
+        } 
 
 .container{
     display: flex;
@@ -73,6 +82,12 @@ input[type=checkbox]{
 h2{
     color: rgb(0, 119, 255);
     text-align: center;
+}
+
+.pchild{
+    margin: auto;
+    position: absolute;
+    left: 160px;
 }
 
 /* index2.html */
@@ -123,12 +138,25 @@ h2{
  margin-left: 700px;
 }
 
-.newtask2{
+/* .newtask2{
+    margin-top: -20px;
     margin-left: 350px;
     color: black;
     padding-left: 5px;
-}
+} */
 
+/* .newtask2{
+    margin-top: 35px;
+    color: black;
+    padding-left: 5px; 
+    margin-left: 700px;         
+} */
+
+.newtask2{
+    margin-left: 700px;
+    margin-top: -20px;
+
+}
 /* .tasks1{
     border-radius: 50%;
     height: 20px;
